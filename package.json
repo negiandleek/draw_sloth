@@ -1,0 +1,22 @@
+{
+    "name": "draw_namakemono",
+    "version": "1.0.0",
+    "description": "draw sloth",
+    "main": "gulpfile.js",
+    "dependencies": {},
+    "author": "youya66",
+    "license": "MIT",
+    "devDependencies": {
+        "babelify": "^6.1.0",
+        "browser-sync": "^2.7.1",
+        "browserify": "^10.2.0",
+        "gulp-load-plugins": "^0.10.0",
+        "gulp-notify": "^2.2.0",
+        "gulp-ruby-sass": "^2.0.5",
+        "gulp-watch": "^4.2.4",
+        "gulp-plumber": "^1.0.0",
+        "gulp-pleeease": "^1.2.0",
+        "rimraf": "^2.3.3",
+        "run-sequence": "^1.1.0"
+    }
+}

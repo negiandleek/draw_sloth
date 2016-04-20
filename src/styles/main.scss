@@ -1,0 +1,78 @@
+@charset "utf-8";
+@import "base/_normalize.scss";
+
+$brown: #9F6C31;
+$dark-brown: #6B3E08;
+$white: #fff;
+$black: #000;
+
+div{
+	position: absolute;
+}
+.frame{
+	position: relative;
+	width: 240px;
+	height: 240px;
+	margin-left: 100px;
+	margin-top: 100px;
+}
+.hair{
+	width: 480px;
+	height: 480px;
+	background-color: $brown;
+	border-radius: 20%;
+	transform: rotate(45deg);
+}
+.hair-two{
+	border: 80px solid transparent;
+	border-bottom: 320px solid #f00;
+	border-radius: 10% 10% 10% 10%;
+	transform: rotate(45deg);
+}
+.face{ 
+	width: 280px;
+	height: 280px;
+	top: 340px;
+	left: 20px;
+	background-color: $white;
+}
+.eye-left,.eye-right{
+	width: 60px;
+	height: 60px;
+	top: 430px;	
+	background-color: $black;
+	z-index: 3;
+}
+.eye-left{
+	left: 50px;
+}
+
+.eye-right{
+	left: 210px;
+}
+.around-eye-left,.around-eye-right{
+	height: 200px;
+	width: 80px;
+	top: 420px;
+	background-color: $brown;
+}
+.around-eye-left{
+	left: 40px;
+}
+.around-eye-right{
+	left: 200px;
+}
+.nose{
+
+}
+.mouth{
+
+}
+.around-mouth{
+	height: 120px;
+	width: 120px;
+	top: 20px;
+	left: 100px;	
+	background-color: $dark-brown;
+}
+
